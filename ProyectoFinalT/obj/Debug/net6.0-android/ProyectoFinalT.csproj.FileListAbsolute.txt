@@ -1980,3 +1980,9 @@ E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\n
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\silencioblanca.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\silencionegra.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\simbolocorchea.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\silenciocorchea.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\simbolosemicorchea.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\silenciosemicorchea.png

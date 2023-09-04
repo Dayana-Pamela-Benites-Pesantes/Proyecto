@@ -11097,17 +11097,22 @@ public final class R {
     public static final int redonda=0x7f0700a5;
     public static final int semicorchea=0x7f0700a6;
     public static final int silencioblanca=0x7f0700a7;
-    public static final int silencioredonda=0x7f0700a8;
-    public static final int simbolo=0x7f0700a9;
-    public static final int simboloblanca=0x7f0700aa;
-    public static final int simboloredonda=0x7f0700ab;
-    public static final int splash=0x7f0700ac;
-    public static final int test_custom_background=0x7f0700ad;
-    public static final int test_level_drawable=0x7f0700ae;
-    public static final int tooltip_frame_dark=0x7f0700af;
-    public static final int tooltip_frame_light=0x7f0700b0;
-    public static final int usuario=0x7f0700b1;
-    public static final int usuario_2=0x7f0700b2;
+    public static final int silenciocorchea=0x7f0700a8;
+    public static final int silencionegra=0x7f0700a9;
+    public static final int silencioredonda=0x7f0700aa;
+    public static final int silenciosemicorchea=0x7f0700ab;
+    public static final int simbolo=0x7f0700ac;
+    public static final int simboloblanca=0x7f0700ad;
+    public static final int simbolocorchea=0x7f0700ae;
+    public static final int simboloredonda=0x7f0700af;
+    public static final int simbolosemicorchea=0x7f0700b0;
+    public static final int splash=0x7f0700b1;
+    public static final int test_custom_background=0x7f0700b2;
+    public static final int test_level_drawable=0x7f0700b3;
+    public static final int tooltip_frame_dark=0x7f0700b4;
+    public static final int tooltip_frame_light=0x7f0700b5;
+    public static final int usuario=0x7f0700b6;
+    public static final int usuario_2=0x7f0700b7;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

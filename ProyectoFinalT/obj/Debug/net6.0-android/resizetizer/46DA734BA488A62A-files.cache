@@ -13,10 +13,16 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\progreso.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\redonda.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\semicorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\silencioblanca.jpg
+obj\Debug\net6.0-android\resizetizer\r\drawable\silencioblanca.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\silenciocorchea.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\silencionegra.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\silencioredonda.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\silenciosemicorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simbolo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simboloblanca.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\simbolocorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simboloredonda.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\simbolosemicorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\usuario.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\usuario_2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png

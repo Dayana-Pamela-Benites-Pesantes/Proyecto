@@ -84,19 +84,19 @@
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text=" 4 " />
+                                <Label HorizontalOptions="Center" FontSize="16" Text=" 4 " />
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                <Image VerticalOptions="Center"  Source="simboloredonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                <Image VerticalOptions="Center"  Source="silencioredonda.png" HeightRequest="65" WidthRequest="55"  ></Image>
                             </Grid>
                         </Frame>
                     </HorizontalStackLayout>
@@ -116,19 +116,19 @@
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text=" 2 " />
+                                <Label HorizontalOptions="Center" FontSize="16" Text=" 2 " />
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
+                                <Image VerticalOptions="Center"  Source="simboloblanca.png" HeightRequest="80" WidthRequest="80"  ></Image>
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                <Image VerticalOptions="Center" Source="silencioblanca.png" HeightRequest="55" WidthRequest="150"  ></Image>
                             </Grid>
                         </Frame>
                     </HorizontalStackLayout>
@@ -148,20 +148,22 @@
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text=" 1 " />
+                                <Label HorizontalOptions="Center" FontSize="16" Text=" 1 " />
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
+                                <Image VerticalOptions="Center" HeightRequest="80" WidthRequest="80"  ></Image>
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                <Image VerticalOptions="Center" Source="silencionegra.png" HeightRequest="80" WidthRequest="38"  ></Image>
                             </Grid>
+                          
+
                         </Frame>
                     </HorizontalStackLayout>
                     <HorizontalStackLayout>
@@ -184,16 +186,18 @@
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
+                                <Image VerticalOptions="Center" Source="simbolocorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
                             </Grid>
+                           
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
                         CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                <Image VerticalOptions="Center" Source="silenciocorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
                             </Grid>
+                           
                         </Frame>
                     </HorizontalStackLayout>
                     <HorizontalStackLayout>
@@ -216,59 +220,21 @@
                             </Grid>
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                             <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
+                                <Image VerticalOptions="Center" Source="simbolosemicorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
                             </Grid>
+                           
                         </Frame>
                         <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="77">
-                            <Grid  ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Silencios" />
+                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
+                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                <Image VerticalOptions="Center" Source="silenciosemicorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
                             </Grid>
+
                         </Frame>
                     </HorizontalStackLayout>
-                    <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="80" Padding="5"  HeightRequest="60" WidthRequest="60">
-                        <Grid  ColumnDefinitions="45,*"  ColumnSpacing="5" BackgroundColor="White">
-                            <Image VerticalOptions="Center"  Source="nota2.png" HeightRequest="45" WidthRequest="38"  ></Image>
-                        </Grid>
-                    </Frame>
-
-                    <Label HorizontalOptions="Center" Text="Registrarse" FontSize="25" FontAttributes="Bold"></Label>
-                    <Frame CornerRadius="25" Padding="5" >
-                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="10">
-
-                            <Image   VerticalOptions="Center" Source="nombre.png" HeightRequest="25" WidthRequest="25"  ></Image>
-
-                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Nombres " Grid.Column="1" MaxLength="80" ></handless:BorderlessEntry>
-                        </Grid>
-                    </Frame>
-                    <Frame CornerRadius="25" Padding="5" >
-                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="10">
-
-                            <Image   VerticalOptions="Center" Source="usuario.png" HeightRequest="25" WidthRequest="25"  ></Image>
-
-                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Usuario " Grid.Column="1" MaxLength="8" ></handless:BorderlessEntry>
-                        </Grid>
-                    </Frame>
-                    <Frame  CornerRadius="25" Padding="5" >
-                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="5">
-                            <Image VerticalOptions="Center"  Source="ojo.png" HeightRequest="25" WidthRequest="25"  ></Image>
-                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Contraseña "  IsPassword="True" Grid.Column="1" MaxLength="8"></handless:BorderlessEntry>
-                        </Grid>
-                    </Frame>
-                    <Button CornerRadius="25"  Text="Guardar" FontSize="20" FontAttributes="Bold"></Button>
-
-                    <HorizontalStackLayout Spacing="20">
-                        <Label Text="¿Ya tienes una cuenta?" VerticalTextAlignment="Center"></Label>
-                        <Label Text="Iniciar " FontSize="17" 
-                           FontAttributes="Bold"
-                           TextColor="{x:StaticResource Primary}"></Label>
-                        <HorizontalStackLayout.GestureRecognizers>
-
-                        </HorizontalStackLayout.GestureRecognizers>
-                    </HorizontalStackLayout>
+                    
                 </VerticalStackLayout>
             </ScrollView>
         </Frame>
