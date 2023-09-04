@@ -63,7 +63,16 @@
 	  <None Remove="Resources\Images\progreso.png" />
 	  <None Remove="Resources\Images\redonda.png" />
 	  <None Remove="Resources\Images\semicorchea.png" />
+	  <None Remove="Resources\Images\silencioblanca.png" />
+	  <None Remove="Resources\Images\silenciocorchea.png" />
+	  <None Remove="Resources\Images\silencionegra.png" />
+	  <None Remove="Resources\Images\silencioredonda.png" />
+	  <None Remove="Resources\Images\silenciosemicorchea.png" />
 	  <None Remove="Resources\Images\simbolo.png" />
+	  <None Remove="Resources\Images\simboloblanca.png" />
+	  <None Remove="Resources\Images\simbolocorchea.png" />
+	  <None Remove="Resources\Images\simboloredonda.png" />
+	  <None Remove="Resources\Images\simbolosemicorchea.png" />
 	  <None Remove="Resources\Images\usuario.png" />
 	</ItemGroup>
 
