@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ProyectoFinalT.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ProyectoFinalT"
+    xmlns:local1="clr-namespace:ProyectoFinalT.Views"
+    xmlns:views="clr-namespace:ProyectoFinalT.Views"
+    xmlns:models="clr-namespace:ProyectoFinalT.Models"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!--<ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />-->
+    <!--<ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:Login}"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="Login" 
+        
+    />
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:LoginUp}"
+        Route="LoginUp" />-->
+    
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local1:HomePage}"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="HomePage" />
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" Icon="{x:Static models:Icons.Home }" ContentTemplate="{DataTemplate views:HomePage}" />
+        <ShellContent Title="Simbología musical" Icon="{x:Static models:Icons.Simbologia}" ContentTemplate="{DataTemplate views:SimbologiaPage}" />
+        <ShellContent Title="Lectura musical" Icon="{x:Static models:Icons.Lectura}" ContentTemplate="{DataTemplate views:LecturaPage}"/>
+        <ShellContent Title="Leyenda de traducción" Icon="{x:Static models:Icons.Leyenda}" ContentTemplate="{DataTemplate views:LeyendaPage}" />
+        <ShellContent Title="Traduccion de partituras" Icon="{x:Static models:Icons.Traduccion }" ContentTemplate="{DataTemplate views:TraduccionPage}" />
+        <ShellContent Title="Biblioteca" Icon="{x:Static models:Icons.Biblioteca}" ContentTemplate="{DataTemplate views:BibliotecaPage}" />
+        <ShellContent Title="Cuestionarios" Icon="{x:Static models:Icons.Cuestionario}" ContentTemplate="{DataTemplate views:CuestionariosPage}" />
+        <ShellContent Title="Progreso" Icon="{x:Static models:Icons.Progreso}" ContentTemplate="{DataTemplate views:ProgresoPage}" />
+
+    </FlyoutItem>
+    <Shell.FlyoutFooter>
+        <StackLayout Margin="0,20,0,0" Padding="10">
+            <Button Text="Cerrar Sesión" Command="{Binding SignOutCommand}" Background="#25C4D1"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+</Shell>

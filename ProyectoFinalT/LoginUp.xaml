@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinalT.LoginUp"
+              Shell.NavBarIsVisible="False"
+             xmlns:handless="clr-namespace:ProyectoFinalT.Handlers"
+             Title="LoginUp">
+    <Grid  RowDefinitions="1*,8*,1*">
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-120,-120,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0)      
+             Endpoint defaults to (1,1) -->
+                <LinearGradientBrush>
+                    <GradientStop Color="#25C4D1"
+                              Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                              Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+
+        </Frame>
+        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="#F7F3F3"
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="444" WidthRequest="350"
+               Margin="50,0,50,0">
+            <ScrollView  HeightRequest="430" WidthRequest="260">
+                <VerticalStackLayout Spacing="18">
+                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                        CornerRadius="80" Padding="5"  HeightRequest="60" WidthRequest="60">
+                        <Grid  ColumnDefinitions="45,*"  ColumnSpacing="5" BackgroundColor="White">
+                            <Image VerticalOptions="Center"  Source="nota2.png" HeightRequest="45" WidthRequest="38"  ></Image>
+                        </Grid>
+                    </Frame>
+                    <Label HorizontalOptions="Center" Text="Registrarse" FontSize="25" FontAttributes="Bold"></Label>
+                    <Frame CornerRadius="25" Padding="5" >
+                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="10">
+
+                            <Image   VerticalOptions="Center" Source="nombre.png" HeightRequest="25" WidthRequest="25"  ></Image>
+
+                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Nombres " Grid.Column="1" MaxLength="80" ></handless:BorderlessEntry>
+                        </Grid>
+                    </Frame>
+                    <Frame CornerRadius="25" Padding="5" >
+                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="10">
+
+                            <Image   VerticalOptions="Center" Source="usuario.png" HeightRequest="25" WidthRequest="25"  ></Image>
+
+                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Usuario " Grid.Column="1" MaxLength="8" ></handless:BorderlessEntry>
+                        </Grid>
+                    </Frame>
+                    <Frame  CornerRadius="25" Padding="5" >
+                        <Grid ColumnDefinitions="45,*"  ColumnSpacing="5">
+                            <Image VerticalOptions="Center"  Source="ojo.png" HeightRequest="25" WidthRequest="25"  ></Image>
+                            <handless:BorderlessEntry  VerticalOptions="Center" Placeholder =" Contraseña "  IsPassword="True" Grid.Column="1" MaxLength="8"></handless:BorderlessEntry>
+                        </Grid>
+                    </Frame>
+                    <Button CornerRadius="25"  Text="Guardar" FontSize="20" FontAttributes="Bold"></Button>
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Label Text="¿Ya tienes una cuenta?" VerticalTextAlignment="Center"></Label>
+                        <Label Text="Iniciar " FontSize="17" 
+                           FontAttributes="Bold"
+                           TextColor="{x:StaticResource Primary}"></Label>
+                        <HorizontalStackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_For_Login" />
+                        </HorizontalStackLayout.GestureRecognizers>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Frame>
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-30,50,-85,-185"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame VerticalOptions="EndAndExpand"
+               Grid.Row="2" 
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-28,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0) -->
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#25C4D1"
+                          Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+</ContentPage>
