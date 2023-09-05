@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.Bibli
 build_metadata.AdditionalFiles.TargetPath = Views\BibliotecaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\BibliotecaPage.xaml
 
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/Cuestionario1Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.Cuestionario1Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cuestionario1Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cuestionario1Page.xaml
+
 [E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/CuestionariosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.CuestionariosPage.xaml

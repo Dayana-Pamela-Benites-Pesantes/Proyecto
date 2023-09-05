@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinalT.Views.Cuestionario1Page"
+             Title="Simbología musical">
+    <Grid  RowDefinitions="1*,8*,1*">
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-120,-120,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0)      
+             Endpoint defaults to (1,1) -->
+                <LinearGradientBrush>
+                    <GradientStop Color="#25C4D1"
+                              Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                              Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+
+        </Frame>
+        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="Transparent"
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
+               Margin="0,-10,0,0" BorderColor="Transparent">
+            <ScrollView BackgroundColor="Transparent" HeightRequest="600" WidthRequest="385"  >
+                <Frame BorderColor="Transparent" BackgroundColor="Transparent" Margin="-15,-8,-15,-15" >
+                    <!--<StackLayout BackgroundColor="Transparent" Margin="-15,-8,-15,-15">-->
+
+                    <StackLayout>
+                        <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDDBF3" Margin="0,0,0,0" Spacing="4">
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="25,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE COMPRENSIÓN" />
+                                        <Label Margin="0,16,0,0" HorizontalOptions="Center" FontSize="16" Text="DE SIMBOLOGÍA MUSICAL" />
+                                    </Grid>
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="90" WidthRequest="360">
+                                    <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label Margin="-5,0,0,0" HorizontalOptions="Center" FontSize="15" Text="Instrucciones" />
+                                        <Label Margin="0,18,0,0" HorizontalOptions="Center" FontSize="15" Text="Para cada una de estas interrogantes, marca la alterativa correcta con un aspa (“X”). Solo una de las respuestas." />
+                                    </Grid>
+                                </Frame>
+                               
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 0,8,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="1. ¿Qué función cumple este símbolo?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="becuadro.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+                                
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                       
+                                        
+                                        <StackLayout>
+
+                                            <RadioButton Content="Regresa al estado natural de la nota" IsChecked="true"/>
+                                            <RadioButton Content="Suma medio tono a una nota" />
+                                            <RadioButton Content="Restar medio tono a una nota"/>
+                                        </StackLayout>
+                                    </Grid>
+                                    
+                                </Frame>
+                                
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="2. ¿Qué función cumple el puntillo en el lado derecho de una nota musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout >
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="becuadro.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="108" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Es la alteración entre dos notas" IsChecked="true"/>
+                                            <RadioButton Content="Indica que la nota se acorta respecto a su valor origina" />
+                                            <RadioButton Content="Añade a la nota la mitad de su valor"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 0,8,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="3. ¿Qué función cumple este símbolo?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="becuadro.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="108" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Alterar el contenido de la partitura" IsChecked="true"/>
+                                            <RadioButton Content="Situar las notas en una posición concreta en el pentagrama" />
+                                            <RadioButton Content="Cambia el valor de la nota"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="4. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="becuadro.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="125" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Se repite el pasaje musical partiendo desde el signo" IsChecked="true"/>
+                                            <RadioButton Content="Añade a la nota la mitad a su valor" />
+                                            <RadioButton Content="Indica el paso a la parte final y repite el pasaje musical partiendo desde el signo"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="5. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="bemol.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content=" Convierte a una nota musical en bemol" IsChecked="true"/>
+                                            <RadioButton Content="Añade a la nota la mitad de su valor" />
+                                            <RadioButton Content="Es la alteración entre dos notas"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="6. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="sostenido.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="108" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Convierte a una figura musical en sostenida" IsChecked="true"/>
+                                            <RadioButton Content="Añade a la nota la mitad a su valor" />
+                                            <RadioButton Content="Restar medio tono a una nota"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="7. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="silencioblanca.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content=" Concede un silencio de dos tiempos" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de un tiempo" />
+                                            <RadioButton Content="Concede un silencio de cuatro tiempos"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="8. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="silencionegra.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Concede un silencio de negra" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de redonda" />
+                                            <RadioButton Content="Concede un silencio de corchea"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="9. ¿Qué función cumple la siguiente figura musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="silencioredonda.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Concede un silencio de blanca" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de redonda" />
+                                            <RadioButton Content="Concede un silencio de negra"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="10. ¿Qué función cumple este símbolo musical?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="silenciocorchea.png"></Image>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Concede un silencio de dos tiempos" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de medio tiempo" />
+                                            <RadioButton Content="Concede un silencio de cuatro tiempos"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="70,0,3,10">
+                                <Frame Margin="0,0,10,10" BorderColor="Transparent" BackgroundColor="White"
+                                 CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="108">
+                                    <Button  Margin="0,0,0,0"  HeightRequest="40" WidthRequest="108" Text="Cancelar"></Button>
+
+
+                                </Frame>
+                                <Frame Margin="0,0,3,10" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="25"  HeightRequest="40" WidthRequest="108">
+                                    <Button  Margin="0,0,0,0"  HeightRequest="40" WidthRequest="108" Text="Enviar"></Button>
+                                    
+
+                                </Frame>
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+                    </StackLayout>
+
+
+                    <!--</StackLayout>-->
+                </Frame>
+
+            </ScrollView>
+        </Frame>
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-30,50,-85,-185"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame VerticalOptions="EndAndExpand"
+               Grid.Row="2" 
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-28,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0) -->
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#25C4D1"
+                          Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+</ContentPage>

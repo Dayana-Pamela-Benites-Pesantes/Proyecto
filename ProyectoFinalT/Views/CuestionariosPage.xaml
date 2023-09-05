@@ -2,12 +2,162 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinalT.Views.CuestionariosPage"
+              xmlns:views="clr-namespace:ProyectoFinalT.Views"
              Shell.FlyoutBehavior="Flyout"
              Title="Cuestionarios">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid  RowDefinitions="1*,8*,1*">
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-120,-120,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0)      
+             Endpoint defaults to (1,1) -->
+                <LinearGradientBrush>
+                    <GradientStop Color="#25C4D1"
+                              Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                              Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+
+        </Frame>
+        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="Transparent"
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
+               Margin="0,-10,0,0" BorderColor="Transparent">
+            <ScrollView BackgroundColor="Transparent" HeightRequest="600" WidthRequest="385"  >
+                <Frame BorderColor="Transparent" BackgroundColor="Transparent" Margin="-15,-8,-15,-15" >
+                    <!--<StackLayout BackgroundColor="Transparent" Margin="-15,-8,-15,-15">-->
+                        
+                        <StackLayout>
+                            <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDF7E5" Margin="0,0,0,0" Spacing="4">
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="360">
+                                        <Grid Margin="85,0,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Lista de Cuestionarios" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="285">
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Cuestionarios" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Acción" />
+                                        </Grid>
+                                    </Frame>
+                                   
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
+                                        <Grid Margin="-20,8,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Comprensión de simbología musical" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="55">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <ImageButton Clicked ="Button_Click" Source="editar.png"></ImageButton>
+                                        <!--<Button Clicked ="Button_Click"></Button>-->
+                                        </Grid>
+
+                                    </Frame>
+                                   
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,10">
+                                    <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
+                                        <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Cantidad de errores en la lectura de partituras" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="55">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <ImageButton Source="editar.png"></ImageButton>
+                                    </Grid>
+                                    </Frame>
+                                    
+                                </HorizontalStackLayout>
+                                <!--<HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,10,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
+                                        <Grid Margin="0,8,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Becuadro" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="55">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <ImageButton Source="editar.png"></ImageButton>
+                                    </Grid>
+                                    </Frame>
+                                    
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,10,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
+                                        <Grid Margin="0,8,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Becuadro" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="55">
+                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <ImageButton Source="editar.png"></ImageButton>
+                                    </Grid>
+                                    </Frame>
+
+                                </HorizontalStackLayout>-->
+                            </VerticalStackLayout>
+                        </StackLayout>
+                                           
+
+                    <!--</StackLayout>-->
+                </Frame>
+
+            </ScrollView>
+        </Frame>
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-30,50,-85,-185"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame VerticalOptions="EndAndExpand"
+               Grid.Row="2" 
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-28,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0) -->
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#25C4D1"
+                          Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </Grid>
 </ContentPage>
