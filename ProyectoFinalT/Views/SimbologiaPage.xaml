@@ -32,210 +32,455 @@
 
         </Frame>
         <Frame ZIndex="1" CornerRadius="8" BackgroundColor="#F7F3F3"
-               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="444" WidthRequest="385"
-               Margin="0,0,0,0">
-            <ScrollView  HeightRequest="430" WidthRequest="376">
-                <VerticalStackLayout Spacing="18">
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Nombre" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Figura" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Tiempo" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="77">
-                            <Grid  ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Silencios" />
-                            </Grid>
-                        </Frame>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
-                            <Grid  ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Redonda" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="16" Text=" 4 " />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="simboloredonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="silencioredonda.png" HeightRequest="65" WidthRequest="55"  ></Image>
-                            </Grid>
-                        </Frame>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Blanca" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="16" Text=" 2 " />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="simboloblanca.png" HeightRequest="80" WidthRequest="80"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="silencioblanca.png" HeightRequest="55" WidthRequest="150"  ></Image>
-                            </Grid>
-                        </Frame>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Negra" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="16" Text=" 1 " />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" HeightRequest="80" WidthRequest="80"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="silencionegra.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                          
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
+               Margin="0,-10,0,0">
+            <ScrollView HeightRequest="644" WidthRequest="385" >
+                <Frame >
+                    <StackLayout Margin="-15,-8,-15,-15">
+                        <StackLayout>
+                            <VerticalStackLayout Grid.Row="10" BackgroundColor="BlanchedAlmond" Margin="0,0,0,0" Spacing="5" >
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Nombre" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Figura" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Tiempo" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Símbolo" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="76">
+                                        <Grid  ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Silencios" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="74">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Redonda" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="36"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="69">
+                                        <Grid  ColumnDefinitions="60,*" Margin="0,9,0,0" ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text=" 4 " />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image  VerticalOptions="Center"  Source="simboloredonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="76">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image Margin="5,6,0,0" VerticalOptions="Center"  Source="silencioredonda.png" HeightRequest="65" WidthRequest="55"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Blanca" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text=" 2 " />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image  VerticalOptions="Center"  Source="simboloblanca.png" HeightRequest="89" WidthRequest="80"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image Margin="0,0,-10,0" VerticalOptions="Center" Source="silencioblanca.png" HeightRequest="55" WidthRequest="150"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Negra" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text=" 1 " />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" HeightRequest="80" WidthRequest="80"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" Source="silencionegra.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Corchea" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="nota2.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text=" 1/2 " />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" Source="simbolocorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="75">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" Source="silenciocorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="75">
+                                        <Grid Margin="0,5,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="14" Text="Semicor-chea" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="semicorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="70">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text=" 1/4 " />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="68">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" Source="simbolosemicorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
+                                        </Grid>
 
-                        </Frame>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text="Corchea" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="nota2.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text=" 1/2 " />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="simbolocorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
-                            </Grid>
-                           
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="silenciocorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                           
-                        </Frame>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="45" WidthRequest="80">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="14" Text="Semicor-chea" />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center"  Source="semicorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Label HorizontalOptions="Center" FontSize="15" Text=" 1/4 " />
-                            </Grid>
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="simbolosemicorchea.png" HeightRequest="40" WidthRequest="50"  ></Image>
-                            </Grid>
-                           
-                        </Frame>
-                        <Frame  BorderColor="Transparent" BackgroundColor="White"
-                        CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="77">
-                            <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                <Image VerticalOptions="Center" Source="silenciosemicorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                            </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="74">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center" Source="silenciosemicorchea.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </StackLayout>
+                        <StackLayout>
+                            <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDF7E5" Margin="0,0,0,0" Spacing="4">
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="360">
+                                        <Grid Margin="134,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Alteraciones" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Nombre" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Figura" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="199">
+                                        <Grid Margin="45,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Definición" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="80">
+                                        <Grid Margin="0,8,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Sostenido" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="199">
+                                        <Grid Margin="-8,8,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Aumenta medio tono " />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="80">
+                                        <Grid Margin="5,8,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Bemol" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="199">
+                                        <Grid Margin="-8,8,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Disminuye medio tono" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="80">
+                                        <Grid Margin="0,8,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Becuadro" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="199">
+                                        <Grid Margin="-8,8,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Rompe toda alteración" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </StackLayout>
+                        <StackLayout>
+                            <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDE9F7" Margin="0,0,0,0" Spacing="4">
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="360">
+                                        <Grid Margin="80,0,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Signos de prolongación" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="80">
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Nombre" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Figura" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="199">
+                                        <Grid Margin="45,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Definición" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="80">
+                                        <Grid Margin="0,9,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Puntillo" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="199">
+                                        <Grid Margin="5,1,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Aumenta la mitad del valor de la figura." />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="80">
+                                        <Grid Margin="3,20,0,0" ColumnDefinitions="65,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Ligadura" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="199">
+                                        <Grid Margin="2,2,2,0" ColumnDefinitions="190,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="La duración sel sonido es la suma de las figuras que se unen." />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="80">
+                                        <Grid Margin="0,10,0,0" ColumnDefinitions="69,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Calderón" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="199">
+                                        <Grid Margin="2,2,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Prolonga su sonido sin tiempo alguno." />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </StackLayout>
+                        <StackLayout>
+                            <VerticalStackLayout Grid.Row="10" BackgroundColor="#D7F3BD" Margin="0,0,0,0" Spacing="4">
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="360">
+                                        <Grid Margin="80,0,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Otros simbolos" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,5,0,0">
+                                    
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Figura" />
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="280">
+                                        <Grid Margin="80,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="15" Text="Definición" />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="280">
+                                        <Grid Margin="5,8,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Separación de compas." />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                                
+                                <HorizontalStackLayout Margin="5,0,0,0">
+                                    
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="70">
+                                        <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
 
-                        </Frame>
-                    </HorizontalStackLayout>
-                    
-                </VerticalStackLayout>
+                                        </Grid>
+                                    </Frame>
+                                    <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="280">
+                                        <Grid Margin="-8,8,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label HorizontalOptions="Center" FontSize="16" Text="Separación de nota." />
+                                        </Grid>
+                                    </Frame>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </StackLayout>
+                        
+                    </StackLayout>
+                </Frame>
+               
             </ScrollView>
         </Frame>
         <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
