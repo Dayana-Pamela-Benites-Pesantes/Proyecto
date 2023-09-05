@@ -56,6 +56,7 @@
 	  <None Remove="Resources\Images\calderon.png" />
 	  <None Remove="Resources\Images\composicion.png" />
 	  <None Remove="Resources\Images\cuestionario.png" />
+	  <None Remove="Resources\Images\editar.png" />
 	  <None Remove="Resources\Images\guion.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\lectura.png" />
@@ -101,6 +102,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\BibliotecaPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Cuestionario1Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\CuestionariosPage.xaml">

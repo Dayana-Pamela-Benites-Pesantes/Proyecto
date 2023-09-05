@@ -17,6 +17,9 @@
     <MauiXaml Update="Views\BibliotecaPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Cuestionario1Page.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\CuestionariosPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
