@@ -274,8 +274,9 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="sostenido.png" HeightRequest="80" WidthRequest="38"  ></Image>
                                         </Grid>
+
                                     </Frame>
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="199">
@@ -294,7 +295,7 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="bemol.png" HeightRequest="80" WidthRequest="38"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
@@ -314,8 +315,8 @@
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
-                                        </Grid>
+                                            <Image VerticalOptions="Center" Source="becuadro.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="199">
@@ -366,7 +367,7 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="punto.png" HeightRequest="10000" WidthRequest="88"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
@@ -386,7 +387,7 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="blanca.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="ligadura.png" HeightRequest="80" WidthRequest="38"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
@@ -406,7 +407,7 @@
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="calderon.png" HeightRequest="80" WidthRequest="38"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
@@ -448,7 +449,7 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="55" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="redonda.png" HeightRequest="80" WidthRequest="38"  ></Image>
+                                            <Image VerticalOptions="Center" Source="separacion.png" HeightRequest="80" WidthRequest="58"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
@@ -464,8 +465,7 @@
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="70">
                                         <Grid  ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                            <Image VerticalOptions="Center"  Source="negra.png" HeightRequest="80" WidthRequest="38"  ></Image>
-
+                                            <Image VerticalOptions="Center" Source="guion.png" HeightRequest="100" WidthRequest="68"  ></Image>
                                         </Grid>
                                     </Frame>
                                     <Frame Margin="0,0,3,6" BorderColor="Transparent" BackgroundColor="White"
