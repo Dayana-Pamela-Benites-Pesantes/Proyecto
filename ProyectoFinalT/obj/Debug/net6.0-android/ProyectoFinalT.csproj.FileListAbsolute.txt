@@ -1947,6 +1947,7 @@ E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\n
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\simbolosemicorchea.png
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\silenciosemicorchea.png
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\separacion.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\sostenido.png
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Data.dll
@@ -1955,3 +1956,9 @@ E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\n
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\bemol.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\becuadro.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\punto.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\ligadura.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\calderon.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\guion.png
