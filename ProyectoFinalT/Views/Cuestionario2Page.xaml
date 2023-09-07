@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinalT.Views.Cuestionario2Page"
+             Title="Lectura musical">
+    <Grid  RowDefinitions="1*,8*,1*">
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0" 
+               Margin="0,-120,-120,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0)      
+             Endpoint defaults to (1,1) -->
+                <LinearGradientBrush>
+                    <GradientStop Color="#25C4D1"
+                              Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                              Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+
+        </Frame>
+        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="Transparent"
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
+               Margin="0,-10,0,0" BorderColor="Transparent">
+            <ScrollView BackgroundColor="Transparent" HeightRequest="600" WidthRequest="385"  >
+                <Frame BorderColor="Transparent" BackgroundColor="Transparent" Margin="-15,-8,-15,-15" >
+                    <!--<StackLayout BackgroundColor="Transparent" Margin="-15,-8,-15,-15">-->
+
+                    <StackLayout>
+                        <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDDBF3" Margin="0,0,0,0" Spacing="4">
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame  BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="15,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
+                                        <Label Margin="-25,16,0,0" HorizontalOptions="Center" FontSize="16" Text=" EN LA LECTURA DE PARTITURAS" />
+                                    </Grid>
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="90" WidthRequest="360">
+                                    <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label Margin="-5,0,0,0" HorizontalOptions="Center" FontSize="15" Text="Instrucciones" />
+                                        <Label Margin="0,18,0,0" HorizontalOptions="Center" FontSize="15" Text="Para cada una de estas interrogantes, marca la alterativa correcta. Solo una de las respuestas." />
+                                    </Grid>
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="500" WidthRequest="360">
+                                    <StackLayout>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 1" />
+                                            <Image />
+                                            
+                                        </Grid>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 2" />
+                                            <Image />
+                                           
+                                        </Grid>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 3" />
+                                            <Image />
+
+                                        </Grid>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 4" />
+                                            <Image />
+
+                                        </Grid>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 5" />
+                                            <Image />
+
+                                        </Grid>
+                                        <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            <Label Margin="0,0,0,0" FontSize="15" Text="Imagen 6" />
+                                            <Image />
+
+                                        </Grid>
+                                    </StackLayout>
+                                   
+                                    
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="360">
+                                    <Grid Margin="10,8,0,0" ColumnDefinitions="335,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="1. Marca los nombres de las alteraciones presentadas en las imágenes 1 y 3." />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <StackLayout>
+                                            <RadioButton Content="Sostenido y becuadro."/>
+                                            <RadioButton Content="Bemol y sostenido." />
+                                            <RadioButton Content="Bemol, becuadro y sostenido."/>
+                                            <RadioButton Content="Bemol, becuadro y puntillo."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="2. ¿Cómo se llama la clave que presentan todas las imágenes?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                           
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Clave de fa."/>
+                                            <RadioButton Content="Clave de sol." />
+                                            <RadioButton Content="Ninguna clave."/>
+                                            <RadioButton Content="A y B."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="58" WidthRequest="360">
+                                    <Grid Margin=" 10,5,0,0" ColumnDefinitions="340,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="3.  Marca el nombre de los silencios presentes en las imágenes 1, 3 y 5." />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="165" WidthRequest="360">
+                                    <Grid Margin="5,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Silencio de negra, silencio de corchea y silencio de semicorchea."/>
+                                            <RadioButton Content="Silencio de blanca y silencio de negra." />
+                                            <RadioButton Content="Silencio de negra, silencio de corchea y silencio de blanca."/>
+                                            <RadioButton Content="Silencio de redonda, silencio de negra y silencio de semicorchea."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="4. ¿En qué compas están las imágenes 2, 5 y 6?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Cuatro cuartos." />
+                                            <RadioButton Content="Compas completos." />
+                                            <RadioButton Content="Dos cuartos."/>
+                                            <RadioButton Content="Seis octavos y dos cuartos."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="70" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="5.  Marca los nombres de los símbolos de prolongación que presentan las imágenes 1, 2 y 4." />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                           
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Ligadura y puntillo."/>
+                                            <RadioButton Content="Puntillo y calderón." />
+                                            <RadioButton Content="Ligadura y calderón."/>
+                                            <RadioButton Content=" Calderón y becuadro."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="6. ¿Qué figuras presentan las imágenes 1, 2, 3 y 5?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                           
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="108" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Negra, blanca y redonda."/>
+                                            <RadioButton Content=" Blanca, semicorchea y corchea." />
+                                            <RadioButton Content="Corchea, negra, blanca, redonda y semicorchea."/>
+                                            <RadioButton Content="Semicorchea, negra, redonda."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="7. ¿Qué sonidos presentan las imágenes 1 y 2?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="Sobreagudos, pedales y medios." />
+                                            <RadioButton Content="Medios y aguados." />
+                                            <RadioButton Content="Graves y sobreagudos."/>
+                                            <RadioButton Content="Agudos y pedales."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin="15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="8. ¿Cuántas alteraciones presentan la imagen 3?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                           
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="1 alteración." />
+                                            <RadioButton Content="4 alteraciones." />
+                                            <RadioButton Content="3 alteraciones."/>
+                                            <RadioButton Content=" 7 alteraciones." />
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="9. ¿Cuánto tiempo de silencio tiene la imagen 1?" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="140" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="1 tiempo." />
+                                            <RadioButton Content="1/2 tiempo." />
+                                            <RadioButton Content="3 tiempos."/>
+                                            <RadioButton Content="2 tiempos."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="360">
+                                    <Grid Margin=" 15,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Label HorizontalOptions="Center" FontSize="15" Text="10. Enumera cuantos símbolos de silencio presenta la imagen 3" />
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+                            
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="100" WidthRequest="360">
+                                    <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+
+
+                                        <StackLayout>
+
+                                            <RadioButton Content="1 silencio."/>
+                                            <RadioButton Content="3 silencios." />
+                                            <RadioButton Content="4 silencio."/>
+                                            <RadioButton Content="2 silencio."/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="70,0,3,10">
+                                <Frame Margin="0,0,10,10" BorderColor="Transparent" BackgroundColor="White"
+                                 CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="108">
+                                    <Button  Margin="0,0,0,0"  HeightRequest="40" WidthRequest="108" Text="Cancelar"></Button>
+
+
+                                </Frame>
+                                <Frame Margin="0,0,3,10" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="25"  HeightRequest="40" WidthRequest="108">
+                                    <Button  Margin="0,0,0,0"  HeightRequest="40" WidthRequest="108" Text="Enviar"></Button>
+
+
+                                </Frame>
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+                    </StackLayout>
+
+
+                    <!--</StackLayout>-->
+                </Frame>
+
+            </ScrollView>
+        </Frame>
+        <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-30,50,-85,-185"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+
+        </Frame>
+        <Frame VerticalOptions="EndAndExpand"
+               Grid.Row="2" 
+               HorizontalOptions="StartAndExpand"
+               Padding="0" 
+               Margin="-28,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125">
+            <Frame.Background>
+                <!-- StartPoint defaults to (0,0) -->
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#25C4D1"
+                          Offset="0.1" />
+                    <GradientStop Color="Aquamarine"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+</ContentPage>
