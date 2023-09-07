@@ -51,7 +51,7 @@
                                             CornerRadius="10" Padding="5"  HeightRequest="90" WidthRequest="360">
                                     <Grid Margin="5,0,0,0" ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="White">
                                         <Label Margin="-5,0,0,0" HorizontalOptions="Center" FontSize="15" Text="Instrucciones" />
-                                        <Label Margin="0,18,0,0" HorizontalOptions="Center" FontSize="15" Text="Para cada una de estas interrogantes, marca la alterativa correcta con un aspa (“X”). Solo una de las respuestas." />
+                                        <Label Margin="0,18,0,0" HorizontalOptions="Center" FontSize="15" Text="Para cada una de estas interrogantes, marca la alterativa correcta. Solo una de las respuestas." />
                                     </Grid>
                                 </Frame>
                                
@@ -84,7 +84,7 @@
                                         
                                         <StackLayout>
 
-                                            <RadioButton Content="Regresa al estado natural de la nota" IsChecked="true"/>
+                                            <RadioButton Content="Regresa al estado natural de la nota"/>
                                             <RadioButton Content="Suma medio tono a una nota" />
                                             <RadioButton Content="Restar medio tono a una nota"/>
                                         </StackLayout>
@@ -106,7 +106,9 @@
                                 <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
                                     <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                        <Image  Source="becuadro.png"></Image>
+                                        
+                                        <Image Source="notapunto.png" />
+
                                         <!--<Button Clicked ="Button_Click"></Button>-->
                                     </Grid>
 
@@ -121,7 +123,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Es la alteración entre dos notas" IsChecked="true"/>
+                                            <RadioButton Content="Es la alteración entre dos notas"/>
                                             <RadioButton Content="Indica que la nota se acorta respecto a su valor origina" />
                                             <RadioButton Content="Añade a la nota la mitad de su valor"/>
                                         </StackLayout>
@@ -158,7 +160,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Alterar el contenido de la partitura" IsChecked="true"/>
+                                            <RadioButton Content="Alterar el contenido de la partitura"/>
                                             <RadioButton Content="Situar las notas en una posición concreta en el pentagrama" />
                                             <RadioButton Content="Cambia el valor de la nota"/>
                                         </StackLayout>
@@ -179,8 +181,8 @@
                             <HorizontalStackLayout>
                                 <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
-                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                        <Image  Source="becuadro.png"></Image>
+                                    <Grid Margin="-2,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image  Source="ojomusica.png"></Image>
                                         <!--<Button Clicked ="Button_Click"></Button>-->
                                     </Grid>
 
@@ -195,7 +197,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Se repite el pasaje musical partiendo desde el signo" IsChecked="true"/>
+                                            <RadioButton Content="Se repite el pasaje musical partiendo desde el signo" />
                                             <RadioButton Content="Añade a la nota la mitad a su valor" />
                                             <RadioButton Content="Indica el paso a la parte final y repite el pasaje musical partiendo desde el signo"/>
                                         </StackLayout>
@@ -216,7 +218,7 @@
                             <HorizontalStackLayout>
                                 <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
-                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                    <Grid Margin="0,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
                                         <Image  Source="bemol.png"></Image>
                                         <!--<Button Clicked ="Button_Click"></Button>-->
                                     </Grid>
@@ -232,7 +234,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content=" Convierte a una nota musical en bemol" IsChecked="true"/>
+                                            <RadioButton Content=" Convierte a una nota musical en bemol"/>
                                             <RadioButton Content="Añade a la nota la mitad de su valor" />
                                             <RadioButton Content="Es la alteración entre dos notas"/>
                                         </StackLayout>
@@ -253,7 +255,7 @@
                             <HorizontalStackLayout>
                                 <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
-                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                    <Grid Margin="-2,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
                                         <Image  Source="sostenido.png"></Image>
                                         <!--<Button Clicked ="Button_Click"></Button>-->
                                     </Grid>
@@ -269,7 +271,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Convierte a una figura musical en sostenida" IsChecked="true"/>
+                                            <RadioButton Content="Convierte a una figura musical en sostenida"/>
                                             <RadioButton Content="Añade a la nota la mitad a su valor" />
                                             <RadioButton Content="Restar medio tono a una nota"/>
                                         </StackLayout>
@@ -290,8 +292,8 @@
                             <HorizontalStackLayout>
                                 <Frame Margin="150,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="60" WidthRequest="65">
-                                    <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                        <Image  Source="silencioblanca.png"></Image>
+                                    <Grid Margin="1,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Image HeightRequest="80" WidthRequest="70" Source="silencioblanca.png"></Image>
                                         <!--<Button Clicked ="Button_Click"></Button>-->
                                     </Grid>
 
@@ -306,7 +308,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content=" Concede un silencio de dos tiempos" IsChecked="true"/>
+                                            <RadioButton Content=" Concede un silencio de dos tiempos" />
                                             <RadioButton Content="Concede un silencio de un tiempo" />
                                             <RadioButton Content="Concede un silencio de cuatro tiempos"/>
                                         </StackLayout>
@@ -343,7 +345,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Concede un silencio de negra" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de negra" />
                                             <RadioButton Content="Concede un silencio de redonda" />
                                             <RadioButton Content="Concede un silencio de corchea"/>
                                         </StackLayout>
@@ -380,7 +382,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Concede un silencio de blanca" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de blanca" />
                                             <RadioButton Content="Concede un silencio de redonda" />
                                             <RadioButton Content="Concede un silencio de negra"/>
                                         </StackLayout>
@@ -417,7 +419,7 @@
 
                                         <StackLayout>
 
-                                            <RadioButton Content="Concede un silencio de dos tiempos" IsChecked="true"/>
+                                            <RadioButton Content="Concede un silencio de dos tiempos"/>
                                             <RadioButton Content="Concede un silencio de medio tiempo" />
                                             <RadioButton Content="Concede un silencio de cuatro tiempos"/>
                                         </StackLayout>

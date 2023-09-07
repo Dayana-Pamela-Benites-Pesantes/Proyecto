@@ -16,4 +16,8 @@ public partial class CuestionariosPage : ContentPage
     {
         await Navigation.PushAsync(new Cuestionario1Page());
     }
+    private async void Button_Click2(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Cuestionario2Page());
+    }
 }
