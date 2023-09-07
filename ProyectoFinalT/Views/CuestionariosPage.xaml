@@ -89,7 +89,7 @@
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="55">
                                     <Grid Margin="-7,0,0,0" ColumnDefinitions="60,*"  ColumnSpacing="8" BackgroundColor="White">
-                                        <ImageButton Source="editar.png"></ImageButton>
+                                        <ImageButton Clicked ="Button_Click2" Source="editar.png"></ImageButton>
                                     </Grid>
                                     </Frame>
                                     
