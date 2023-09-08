@@ -7938,73 +7938,85 @@ namespace ProyectoFinalT
 			public const int ojomusica = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int progreso = 2131165356;
+			public const int pentagramasdeclavefa = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int punto = 2131165357;
+			public const int pentagramasdeclavesdocuatro = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int redonda = 2131165358;
+			public const int pentagramasdeclavesdotres = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int semicorchea = 2131165359;
+			public const int pentagramasdeclavesol = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int separacion = 2131165360;
+			public const int progreso = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int silencioblanca = 2131165361;
+			public const int punto = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int silenciocorchea = 2131165362;
+			public const int redonda = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int silencionegra = 2131165363;
+			public const int semicorchea = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int silencioredonda = 2131165364;
+			public const int separacion = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int silenciosemicorchea = 2131165365;
+			public const int silencioblanca = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int simbolo = 2131165366;
+			public const int silenciocorchea = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int simboloblanca = 2131165367;
+			public const int silencionegra = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int simbolocorchea = 2131165368;
+			public const int silencioredonda = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int simboloredonda = 2131165369;
+			public const int silenciosemicorchea = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int simbolosemicorchea = 2131165370;
+			public const int simbolo = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int sostenido = 2131165371;
+			public const int simboloblanca = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int splash = 2131165372;
+			public const int simbolocorchea = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int test_custom_background = 2131165373;
+			public const int simboloredonda = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int test_level_drawable = 2131165374;
+			public const int simbolosemicorchea = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int tooltip_frame_dark = 2131165375;
+			public const int sostenido = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int tooltip_frame_light = 2131165376;
+			public const int splash = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int usuario = 2131165377;
+			public const int test_custom_background = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int usuario_2 = 2131165378;
+			public const int test_level_drawable = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int tooltip_frame_dark = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int tooltip_frame_light = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int usuario = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int usuario_2 = 2131165382;
 			
 			static Drawable()
 			{
