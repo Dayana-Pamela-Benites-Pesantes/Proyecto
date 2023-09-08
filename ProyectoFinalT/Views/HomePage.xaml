@@ -44,11 +44,11 @@
                                 <Grid  Margin="0,0,0,0"  ColumnDefinitions="150,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
                                     <!--<Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
                                         -->
-                                    <ImageButton  Margin="-8,-18,0,0" HeightRequest="80" WidthRequest="80" Source="simbolo.png" ></ImageButton>
+                                    <ImageButton  Margin="-8,-18,0,0" HeightRequest="80" WidthRequest="80" Source="simbolo.png" Clicked ="Button_Click_Simbolo"></ImageButton>
                                     <Label Margin="-18,100,0,0"  HorizontalOptions="Center" FontSize="14" Text="Simbologia " />
                                     <Label Margin="-18,116,0,0"  HorizontalOptions="Center" FontSize="14" Text="musical" />
                                 </Grid>
-                                <!-- Clicked ="Button_Click2"-->
+                                <!-- Clicked ="Button_Click_Simbolo"-->
                                 <!--<Button  ></Button>-->
                             </Frame>
 
@@ -57,7 +57,7 @@
                                 <Grid ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
                                     <!--  <Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
                                         <Label Margin="-25,16,0,0" HorizontalOptions="Center" FontSize="16" Text=" EN LA LECTURA DE PARTITURAS" />-->
-                                    <ImageButton  Margin="-210,-18,0,0" HeightRequest="80" WidthRequest="80" Source="lectura.png" ></ImageButton>
+                                    <ImageButton  Margin="-210,-18,0,0" HeightRequest="80" WidthRequest="80" Source="lectura.png" Clicked ="Button_Click_Lectura" ></ImageButton>
                                     <Label Margin="-210,100,0,0"  HorizontalOptions="Center" FontSize="14" Text="Lectura musical" />
                                 </Grid>
 
@@ -70,7 +70,7 @@
                                 <Grid Margin="0,0,0,0"  ColumnDefinitions="150,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
                                     <!--<Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
                                         -->
-                                    <ImageButton  Margin="-8,-18,0,0" HeightRequest="80" WidthRequest="80" Source="leyenda.png" ></ImageButton>
+                                    <ImageButton  Margin="-8,-18,0,0" HeightRequest="80" WidthRequest="80" Source="leyenda.png" Clicked ="Button_Click_Leyenda"></ImageButton>
                                     <Label Margin="-18,100,0,0"  HorizontalOptions="Center" FontSize="14" Text="Leyenda de " />
                                     <Label Margin="-18,116,0,0"  HorizontalOptions="Center" FontSize="14" Text="traducción" />
                                 </Grid>
@@ -81,7 +81,7 @@
                                 <Grid ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
                                     <!--  <Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
                                         <Label Margin="-25,16,0,0" HorizontalOptions="Center" FontSize="16" Text=" EN LA LECTURA DE PARTITURAS" />-->
-                                    <ImageButton  Margin="-210,-18,0,0" HeightRequest="80" WidthRequest="80" Source="composicion.png" ></ImageButton>
+                                    <ImageButton  Margin="-210,-18,0,0" HeightRequest="80" WidthRequest="80" Source="composicion.png" Clicked ="Button_Click_Traduccion"></ImageButton>
 
                                     <Label Margin="-210,100,0,0"  HorizontalOptions="Center" FontSize="14" Text="Traducción " />
                                     <Label Margin="-210,116,0,0"  HorizontalOptions="Center" FontSize="14" Text="musical" />
@@ -89,28 +89,7 @@
 
                             </Frame>
                         </HorizontalStackLayout>
-                        <HorizontalStackLayout Margin="40,0,0,0">
-                            <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="#99E8E1"
-                                    CornerRadius="10" Padding="5"  HeightRequest="145" WidthRequest="145">
-                                <Grid Margin="0,0,0,0"  ColumnDefinitions="150,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
-                                    <!--<Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
-                                        -->
-                                    <ImageButton  Margin="-8,-18,0,0" HeightRequest="80" WidthRequest="80" Source="biblioteca.png" ></ImageButton>
-                                    <Label Margin="-18,105,0,0"  HorizontalOptions="Center" FontSize="14" Text="Biblioteca" />
-                                </Grid>
-                            </Frame>
-
-                            <Frame  BorderColor="Transparent" BackgroundColor="#99E8E1"
-                                            CornerRadius="10" Padding="5"  HeightRequest="145" WidthRequest="145">
-                                <Grid ColumnDefinitions="350,*"  ColumnSpacing="8" BackgroundColor="#99E8E1">
-                                    <!--  <Label Margin="-35,0,0,0" HorizontalOptions="Center" FontSize="16" Text="CUESTIONARIO DE CANTIDAD DE ERRORES" />
-                                        <Label Margin="-25,16,0,0" HorizontalOptions="Center" FontSize="16" Text=" EN LA LECTURA DE PARTITURAS" />-->
-                                    <ImageButton  Margin="-210,-18,0,0" HeightRequest="80" WidthRequest="80" Source="cuestionario.png" ></ImageButton>
-                                    <Label Margin="-210,100,0,0"  HorizontalOptions="Center" FontSize="14" Text="Cuestionarios" />
-                                </Grid>
-
-                            </Frame>
-                        </HorizontalStackLayout>
+                        
 
                     </VerticalStackLayout>
                     <!--</StackLayout>-->
