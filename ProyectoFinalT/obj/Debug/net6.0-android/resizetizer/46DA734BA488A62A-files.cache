@@ -8,6 +8,12 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\cuestionario.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\editar.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\guion.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\home.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagencinco.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagencuatro.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagendos.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagenseis.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagentres.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\imagenuno.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\lectura.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\leyenda.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\ligadura.png

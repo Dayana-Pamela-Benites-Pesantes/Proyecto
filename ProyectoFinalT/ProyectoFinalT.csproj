@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>ProyectoFinalT</ApplicationTitle>
+		<ApplicationTitle>Traductor Musical</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.proyectofinalt</ApplicationId>
@@ -32,10 +32,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#25C4D1" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\nota2.png" Color="#25C4D1" BaseSize="100,100" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -59,6 +59,12 @@
 	  <None Remove="Resources\Images\editar.png" />
 	  <None Remove="Resources\Images\guion.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\imagencinco.png" />
+	  <None Remove="Resources\Images\imagencuatro.png" />
+	  <None Remove="Resources\Images\imagendos.png" />
+	  <None Remove="Resources\Images\imagenseis.png" />
+	  <None Remove="Resources\Images\imagentres.png" />
+	  <None Remove="Resources\Images\imagenuno.png" />
 	  <None Remove="Resources\Images\lectura.png" />
 	  <None Remove="Resources\Images\leyenda.png" />
 	  <None Remove="Resources\Images\ligadura.png" />
@@ -89,11 +95,16 @@
 	  <None Remove="Resources\Images\simbolosemicorchea.png" />
 	  <None Remove="Resources\Images\sostenido.png" />
 	  <None Remove="Resources\Images\usuario.png" />
+	  <None Remove="Resources\Splash\nota2.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Splash\nota2.png" />
 	</ItemGroup>
 
 	<ItemGroup>
