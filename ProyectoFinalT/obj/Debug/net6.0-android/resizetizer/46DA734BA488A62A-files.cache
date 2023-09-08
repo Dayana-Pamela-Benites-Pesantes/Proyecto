@@ -17,6 +17,10 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\nota2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\notapunto.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\ojo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\ojomusica.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavefa.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdocuatro.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdotres.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesol.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\progreso.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\punto.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\redonda.png

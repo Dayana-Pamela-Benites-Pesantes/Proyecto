@@ -1997,3 +1997,7 @@ E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\n
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\x86_64\System.Private.Uri.dll
 E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\android\assets\x86_64\System.Xml.dll
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesol.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavefa.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdotres.png
+E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdocuatro.png
