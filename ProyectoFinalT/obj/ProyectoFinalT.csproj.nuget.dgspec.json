@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta (2)\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj": {}
+    "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj": {}
   },
   "projects": {
-    "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta (2)\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj": {
+    "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta (2)\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj",
+        "projectUniqueName": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj",
         "projectName": "ProyectoFinalT",
-        "projectPath": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta (2)\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj",
+        "projectPath": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta\\Proyecto\\ProyectoFinalT\\ProyectoFinalT.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta (2)\\Proyecto\\ProyectoFinalT\\obj\\",
+        "outputPath": "E:\\CICLO IX\\CICLO X\\Documentos\\Nueva carpeta\\Proyecto\\ProyectoFinalT\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

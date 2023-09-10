@@ -1,4 +1,5 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable\becuadro.png
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\alteraciones.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\becuadro.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\bemol.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\biblioteca.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\blanca.png
@@ -23,6 +24,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\nota2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\notapunto.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\ojo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\ojomusica.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\otrossignos.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavefa.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdocuatro.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\pentagramasdeclavesdotres.png
@@ -32,6 +34,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\punto.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\redonda.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\semicorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\separacion.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\signosprolongacion.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\silencioblanca.jpg
 obj\Debug\net6.0-android\resizetizer\r\drawable\silencioblanca.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\silenciocorchea.png
@@ -42,6 +45,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable\simbolo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simboloblanca.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simbolocorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simboloredonda.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\simbolos.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\simbolosemicorchea.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\sostenido.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\usuario.png
