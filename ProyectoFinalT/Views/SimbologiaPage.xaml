@@ -31,12 +31,115 @@
             </Frame.Background>
 
         </Frame>
-        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="#F7F3F3"
+        <Frame ZIndex="1" CornerRadius="8" BackgroundColor="Transparent"
                Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
-               Margin="0,-10,0,0">
+               Margin="0,-10,0,0" BorderColor="Transparent">
+            <ScrollView BackgroundColor="Transparent" HeightRequest="600" WidthRequest="385"  >
+                <Frame BorderColor="Transparent" BackgroundColor="Transparent" Margin="-15,-8,-15,-15" >
+                    <!--<StackLayout BackgroundColor="Transparent" Margin="-15,-8,-15,-15">-->
+
+                    <StackLayout>
+                        <VerticalStackLayout Grid.Row="10" BackgroundColor="#BDDBF3" Margin="0,0,0,0" Spacing="4">
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame  BorderColor="Transparent" BackgroundColor="BlanchedAlmond"
+                                            CornerRadius="10" Padding="5"  HeightRequest="400" WidthRequest="360">
+
+                                    <Grid Margin="0,30,0,0">
+                                        <local:ImagenClaveSol>
+                                            <Image HeightRequest="500" WidthRequest="370" Source="simbolos.png" />
+
+                                        </local:ImagenClaveSol>
+
+
+                                    </Grid>
+                                </Frame>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,5,0,0">
+                                <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
+                                            CornerRadius="10" Padding="5"  HeightRequest="800" WidthRequest="360">
+                                    <Grid>
+                                        <local:ImagenClaveSol>
+                                            <!--<Image Source="pentagramasdeclavesol.png" />-->
+                                            <Image Source="pentagramasdeclavefa.png" />
+
+                                        </local:ImagenClaveSol>
+
+                                    </Grid>
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,0">
+                                <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="#BDF7E5"
+                                            CornerRadius="10" Padding="5"  HeightRequest="300" WidthRequest="360">
+                                    <Grid>
+                                        <local:ImagenClaveSol>
+                                            <Image HeightRequest="400" WidthRequest="380" Source="alteraciones.png" />
+
+
+
+
+                                        </local:ImagenClaveSol>
+
+
+                                    </Grid>
+
+                                </Frame>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="#BDE9F7"
+                                            CornerRadius="10" Padding="5"  HeightRequest="300" WidthRequest="360">
+                                    <Grid>
+                                        <local:ImagenClaveSol>
+                                            <Image HeightRequest="1080" WidthRequest="400" Source="signosprolongacion.png" />
+
+
+
+
+                                        </local:ImagenClaveSol>
+
+
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Margin="5,0,0,10">
+
+                                <Frame Margin="0,0,10,8" BorderColor="Transparent" BackgroundColor="#D7F3BD"
+                                            CornerRadius="10" Padding="5"  HeightRequest="200" WidthRequest="360">
+                                    <Grid>
+                                        <local:ImagenClaveSol>
+                                            <Image HeightRequest="200" WidthRequest="3700" Source="otrossignos.png" />
+
+
+
+
+                                        </local:ImagenClaveSol>
+
+
+                                    </Grid>
+
+                                </Frame>
+
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+                    </StackLayout>
+
+
+                    <!--</StackLayout>-->
+                </Frame>
+
+            </ScrollView>
+        </Frame>
+        <!--<Frame ZIndex="1" CornerRadius="8" BackgroundColor="#F7F3F3"
+               Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="644" WidthRequest="385"
+               Margin="0,0,0,0">
             <ScrollView HeightRequest="644" WidthRequest="385" >
-                <Frame >
-                    <StackLayout Margin="-15,-8,-15,-15">
+                <Frame Margin="-15,-8,-15,-15">
+                    <StackLayout Margin="0,0,0,0">
                         <StackLayout>
                             <VerticalStackLayout Grid.Row="10" BackgroundColor="BlanchedAlmond" Margin="0,0,0,0" Spacing="5" >
                                 <HorizontalStackLayout Margin="5,5,0,0">
@@ -482,7 +585,7 @@
                 </Frame>
                
             </ScrollView>
-        </Frame>
+        </Frame>-->
         <Frame BackgroundColor="#cfd0d8" Grid.Row="2" 
                VerticalOptions="EndAndExpand"
                HorizontalOptions="StartAndExpand"

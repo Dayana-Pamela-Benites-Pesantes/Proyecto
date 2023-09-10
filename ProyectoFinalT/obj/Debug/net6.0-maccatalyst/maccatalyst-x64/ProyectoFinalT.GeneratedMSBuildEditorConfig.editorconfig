@@ -8,105 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoFinalT
-build_property.ProjectDir = E:\CICLO IX\CICLO X\Documentos\Nueva carpeta (2)\Proyecto\ProyectoFinalT\
+build_property.ProjectDir = E:\CICLO IX\CICLO X\Documentos\Nueva carpeta\Proyecto\ProyectoFinalT\
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/App.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/AppShell.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Login.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Login.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/LoginUp.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/LoginUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.LoginUp.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginUp.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginUp.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/MainPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Resources/Styles/Colors.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Resources/Styles/Styles.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/BibliotecaPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/BibliotecaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.BibliotecaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\BibliotecaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\BibliotecaPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/Cuestionario1Page.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/Cuestionario1Page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.Cuestionario1Page.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Cuestionario1Page.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cuestionario1Page.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/Cuestionario2Page.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/Cuestionario2Page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.Cuestionario2Page.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Cuestionario2Page.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cuestionario2Page.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/CuestionariosPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/CuestionariosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.CuestionariosPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CuestionariosPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CuestionariosPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/HomePage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/LecturaPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/LecturaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.LecturaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LecturaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LecturaPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/LeyendaPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/LeyendaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.LeyendaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LeyendaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LeyendaPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/ProgresoPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/ProgresoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.ProgresoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProgresoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProgresoPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/SimbologiaPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/SimbologiaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.SimbologiaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SimbologiaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SimbologiaPage.xaml
 
-[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta (2)/Proyecto/ProyectoFinalT/Views/TraduccionPage.xaml]
+[E:/CICLO IX/CICLO X/Documentos/Nueva carpeta/Proyecto/ProyectoFinalT/Views/TraduccionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoFinalT.Views.TraduccionPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TraduccionPage.xaml

@@ -35,7 +35,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#25C4D1" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\nota2.png" Color="#25C4D1" BaseSize="100,100" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#25C4D1" BaseSize="100,100" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\alteraciones.png" />
 	  <None Remove="Resources\Images\becuadro.png" />
 	  <None Remove="Resources\Images\bemol.png" />
 	  <None Remove="Resources\Images\biblioteca.png" />
@@ -74,6 +75,7 @@
 	  <None Remove="Resources\Images\notapunto.png" />
 	  <None Remove="Resources\Images\ojo.png" />
 	  <None Remove="Resources\Images\ojomusica.png" />
+	  <None Remove="Resources\Images\otrossignos.png" />
 	  <None Remove="Resources\Images\pentagramasdeclavefa.png" />
 	  <None Remove="Resources\Images\pentagramasdeclavesdocuatro.png" />
 	  <None Remove="Resources\Images\pentagramasdeclavesdotres.png" />
@@ -83,6 +85,7 @@
 	  <None Remove="Resources\Images\redonda.png" />
 	  <None Remove="Resources\Images\semicorchea.png" />
 	  <None Remove="Resources\Images\separacion.png" />
+	  <None Remove="Resources\Images\signosprolongacion.png" />
 	  <None Remove="Resources\Images\silencioblanca.png" />
 	  <None Remove="Resources\Images\silenciocorchea.png" />
 	  <None Remove="Resources\Images\silencionegra.png" />
@@ -92,19 +95,15 @@
 	  <None Remove="Resources\Images\simboloblanca.png" />
 	  <None Remove="Resources\Images\simbolocorchea.png" />
 	  <None Remove="Resources\Images\simboloredonda.png" />
+	  <None Remove="Resources\Images\simbolos.png" />
 	  <None Remove="Resources\Images\simbolosemicorchea.png" />
 	  <None Remove="Resources\Images\sostenido.png" />
 	  <None Remove="Resources\Images\usuario.png" />
-	  <None Remove="Resources\Splash\nota2.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiImage Include="Resources\Splash\nota2.png" />
 	</ItemGroup>
 
 	<ItemGroup>

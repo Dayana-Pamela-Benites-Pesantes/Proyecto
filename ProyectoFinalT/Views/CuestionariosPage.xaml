@@ -42,7 +42,7 @@
                                 <HorizontalStackLayout Margin="5,5,0,0">
                                     <Frame  BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="360">
-                                        <Grid Margin="85,0,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Grid Margin="8,0,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
                                             <Label HorizontalOptions="Center" FontSize="16" Text="Lista de Cuestionarios" />
                                         </Grid>
                                     </Frame>
@@ -50,7 +50,7 @@
                                 <HorizontalStackLayout Margin="5,5,0,0">
                                     <Frame Margin="0,0,3,0" BorderColor="Transparent" BackgroundColor="White"
                                             CornerRadius="10" Padding="5"  HeightRequest="40" WidthRequest="285">
-                                        <Grid Margin="5,0,0,0" ColumnDefinitions="100,*"  ColumnSpacing="8" BackgroundColor="White">
+                                        <Grid Margin="-20,0,0,0" ColumnDefinitions="200,*"  ColumnSpacing="8" BackgroundColor="White">
                                             <Label HorizontalOptions="Center" FontSize="15" Text="Cuestionarios" />
                                         </Grid>
                                     </Frame>
@@ -64,8 +64,8 @@
                                 </HorizontalStackLayout>
                                 <HorizontalStackLayout Margin="5,0,0,0">
                                     <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
-                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
-                                        <Grid Margin="-20,8,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="285">
+                                        <Grid Margin="10,8,0,0" ColumnDefinitions="250,*"  ColumnSpacing="8" BackgroundColor="White">
                                             <Label HorizontalOptions="Center" FontSize="15" Text="Comprensión de simbología musical" />
                                         </Grid>
                                     </Frame>
@@ -81,8 +81,8 @@
                                 </HorizontalStackLayout>
                                 <HorizontalStackLayout Margin="5,0,0,10">
                                     <Frame Margin="0,0,10,0" BorderColor="Transparent" BackgroundColor="White"
-                                            CornerRadius="10" Padding="5"  HeightRequest="50" WidthRequest="285">
-                                        <Grid Margin="5,-1,0,0" ColumnDefinitions="300,*"  ColumnSpacing="8" BackgroundColor="White">
+                                            CornerRadius="10" Padding="5"  HeightRequest="80" WidthRequest="285">
+                                        <Grid Margin="10,8,0,0" ColumnDefinitions="250,*"  ColumnSpacing="8" BackgroundColor="White">
                                             <Label HorizontalOptions="Center" FontSize="15" Text="Cantidad de errores en la lectura de partituras" />
                                         </Grid>
                                     </Frame>

@@ -22,12 +22,5 @@ public partial class HomePage : ContentPage
     {
         await Navigation.PushAsync(new TraduccionPage());
     }
-    //private async void Button_Click_Biblioteca(object sender, EventArgs e)
-    //{
-    //    await Navigation.PushAsync(new BibliotecaPage());
-    //}
-    //private async void Button_Click_Cuestionario(object sender, EventArgs e)
-    //{
-    //    await Navigation.PushAsync(new CuestionariosPage());
-    //}
+
 }
